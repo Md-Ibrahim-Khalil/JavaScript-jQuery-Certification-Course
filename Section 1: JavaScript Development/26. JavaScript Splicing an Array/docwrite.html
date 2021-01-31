@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+
+    <script>
+           
+        var fruits = ["Apple", "Orange", "Pear", "Grape", "Mango"];
+        
+        // Remove last element
+        // fruits.pop();
+
+        // Remove First element
+        // fruits.shift();
+
+        // Add  element in the last
+        // fruits.push("Cherry");
+
+        // Add  element in the bigging
+        fruits.unshift("Cherry");
+
+
+        document.getElementById("demo").innerHTML = fruits.join(" * ");
+
+        
+
+    </script>
+</body>
+
+</html>

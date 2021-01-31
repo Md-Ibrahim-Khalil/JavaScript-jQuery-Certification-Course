@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Url: https://developers.google.com/speed/libraries  -->
+    
+   <script>
+       $(document).ready(function() {
+            $("button").click(function() {
+                alert($("#name").val() );
+            });
+       });
+   </script>
+
+</head>
+<body>
+    
+    <p>Name: <input type="text" id="name" value="John Smith"></p>
+
+    <button>Get Value</button>
+
+</body>
+
+</html>
